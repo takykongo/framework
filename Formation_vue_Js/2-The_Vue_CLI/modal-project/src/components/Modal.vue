@@ -1,6 +1,6 @@
 <template>
     <div class="backdrop">
-        <div class="modal" :class="{sale: theme === 'sale', }">
+        <div class="modal" :class="{sale: theme === 'sale', dark: theme === 'dark'}">
             <h1>{{header}}</h1>
             <p>{{text}}</p>
         </div>
@@ -41,6 +41,13 @@
         color: white;
     }
     .modal.sale h1{
+        color: white;
+    }
+    .modal.dark{
+        background: #111;
+        color: white;
+    }
+    .modal.dark h1{
         color: white;
     }
 </style>
