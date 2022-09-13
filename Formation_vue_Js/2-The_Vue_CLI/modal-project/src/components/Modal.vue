@@ -48,7 +48,7 @@
         margin: 30 px 0 10px 0;
         color: #333;
     }
-    .modal .actions .a{
+    .modal .actions a{
         padding: 8px;
         color: #333;
         border: 1px solid #eee;
@@ -66,7 +66,7 @@
     .modal.sale .actions{
         color: white;
     }
-    .modal.sale .actions a{
+    .modal.sale .actions a  {
         color: white;
     }
     .modal.dark{
